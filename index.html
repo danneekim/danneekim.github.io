@@ -104,6 +104,10 @@ body, html {
     flex-direction: column;
 }
 
+.project{
+    font-size: 10pt;
+}
+
 </style>
 
 <body>
@@ -117,13 +121,12 @@ body, html {
             </a>
             <a href="#home" class="w3-bar-item w3-button">HOME</a>
             <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-            <a href="#education" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-graduation-cap"></i> EDUCATION/SKILLS</a>
-            <a href="#experience" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-business-time"></i> EXPERIENCE</a>
+            <a href="#education" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-graduation-cap"></i>
+                EDUCATION/SKILLS</a>
+            <a href="#experience" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-business-time"></i>
+                EXPERIENCE</a>
             <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
             <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-                <i class="fa fa-search"></i>
-            </a>
         </div>
 
         <!-- Navbar on small screens -->
@@ -133,7 +136,6 @@ body, html {
             <a href="#experience" class="w3-bar-item w3-button" onclick="toggleFunction()">EXPERIENCE</a>
             <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
             <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-            <a href="#" class="w3-bar-item w3-button">SEARCH</a>
         </div>
     </div>
 
@@ -146,6 +148,7 @@ body, html {
             <center>Web Developer.</center>
         </div>
     </div>
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16"></div>
 
     <!-- Container (About Section) -->
     <div class="w3-content w3-container w3-padding-64" id="about">
@@ -175,7 +178,7 @@ body, html {
             </div>
         </div>
 
-        <hr/>
+        <hr />
 
         <div id="education">
             <h2 class="w3-center">Education</h2>
@@ -213,112 +216,112 @@ body, html {
                 </span>
             </p>
 
-            <hr/>
+            <hr />
 
             <h2 class="w3-center">Skills</h2>
             <div class="skillscontainer">
-                    <div class="skillcontain1">
-                        <div>
-                            <p> HTML5 &nbsp;
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                            </p>
-                        </div>
-                        <div>
-                            <p> CSS3 &nbsp;
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                            </p>
-                        </div>
-                        <div>
-                            <p>MVC Pattern &nbsp;
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                            </p>
-                        </div>
-                        <div>
-                            <p> Git Workflow &nbsp;
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                            </p>
-                        </div>
-                        <div>
-                            <p>PostgreSQL &nbsp;
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                            </p>
-                        </div>
+                <div class="skillcontain1">
+                    <div>
+                        <p> HTML5 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </p>
                     </div>
-    
-    
-                    <div class="skillcontain2">
-                        <div>
-                            <p>JavaScript &nbsp;
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                            </p>
-                        </div>
-                        <div>
-                            <p>Ruby on Rails &nbsp;
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                            </p>
-                        </div>
-                        <div>
-                            <p>Express Node.js &nbsp;
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                            </p>
-                        </div>
-                        <div>
-                            <p> Embedded JavaScript (EJS) &nbsp;
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                            </p>
-                        </div>
-                        <div>
-                            <p>React &nbsp;
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                            </p>
-                        </div>
+                    <div>
+                        <p> CSS3 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </p>
                     </div>
-    
+                    <div>
+                        <p>MVC Pattern &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                    <div>
+                        <p> Git Workflow &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                    <div>
+                        <p>PostgreSQL &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
                 </div>
+
+
+                <div class="skillcontain2">
+                    <div>
+                        <p>JavaScript &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                    <div>
+                        <p>Ruby on Rails &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                    <div>
+                        <p>Express Node.js &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                    <div>
+                        <p> Embedded JavaScript (EJS) &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                    <div>
+                        <p>React &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
 
             <hr>
 
-            <h2 id = "experience" class="w3-center">Experiences</h2>
+            <h2 id="experience" class="w3-center">Experiences</h2>
             <p className="resume">
                 <strong>DOMODOMO LLC</strong>
                 <br />
@@ -373,11 +376,10 @@ body, html {
 
         </div>
 
-
     </div>
 
     <div class="w3-row w3-center w3-dark-grey w3-padding-16">
-        <div class="w3-quarter w3-section">
+        <!-- <div class="w3-quarter w3-section">
             <span class="w3-xlarge">14+</span><br>
             Partners
         </div>
@@ -392,7 +394,7 @@ body, html {
         <div class="w3-quarter w3-section">
             <span class="w3-xlarge">150+</span><br>
             Meetings
-        </div>
+        </div> -->
     </div>
 
     <!-- Second Parallax Image with Portfolio Text -->
@@ -404,47 +406,84 @@ body, html {
 
     <!-- Container (Portfolio Section) -->
     <div class="w3-content w3-container w3-padding-64" id="portfolio">
-        <h3 class="w3-center">MY WORK</h3>
-        <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to
-                make
-                them bigger</em></p><br>
+        <h3 class="w3-center">MY PROJECTS</h3>
+        <p class="w3-center"><em>Here are some of the projects I've been working on.<br> Click on the images to check
+                them out!</em></p><br>
 
         <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
         <div class="w3-row-padding w3-center">
-            <div class="w3-col m3">
-                <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+            <div class="w3-third m3 project">
+                <a href="http://danneekim.com/AlarmClock/">
+                    <img src="./images/AlarmClock.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                        alt="Alarm Clock">
+                </a>
+                <strong>
+                    <center>Alarm Clock</center>
+                </strong>
+                One of my first projects I using HTML5, CSS3, and vanilla JavaScript. Fully functional military digital
+                alarm clock.
             </div>
 
-            <div class="w3-col m3">
-                <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+            <div class="w3-third m3 project">
+                <a href="http://danneekim.com/averagerscalc/">
+                    <img src="./images/Averagers.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                        alt="Averagers Calculator">
+                </a>
+                <strong>
+                    <center>Averagers Calculator</center>
+                </strong>
+                Parody of Marvel's blockbuster - The Avengers - calculates the average and performs basic arithmetic
+                functions (+, -, /, *) - created via HTML5, CSS3, and vanilla JavaScript.
             </div>
 
-            <div class="w3-col m3">
-                <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
-            </div>
-
-            <div class="w3-col m3">
-                <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+            <div class="w3-third m3 project">
+                <a href="http://danneekim.com/averagerscalc/">
+                    <img src="./images/Averagers.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                        alt="Averagers Calculator">
+                </a>
+                <strong>
+                    <center>Averagers Calculator</center>
+                </strong>
+                Parody of Marvel's blockbuster - The Avengers - calculates the average and performs basic arithmetic
+                functions (+, -, /, *) - created via HTML5, CSS3, and vanilla JavaScript.
             </div>
         </div>
 
         <div class="w3-row-padding w3-center w3-section">
-            <div class="w3-col m3">
-                <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+            <div class="w3-third m3 project">
+                <a href="http://danneekim.com/SurviveGeneralAssembly/">
+                    <img src="./images/GASurvival.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                        alt="Survive General Assembly">
+                </a>
+                <strong>
+                    <center>Survive General Assembly</center>
+                </strong>
+                Is a simple dungeon maze game, inspired while attending General Assembly. The goal of the game is to
+                collect all the relevant tokens of knowledge in order to advance to the next unit/stage of the game!
             </div>
 
-            <div class="w3-col m3">
-                <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+            <div class="w3-third m3 project">
+                <a href="http://earthy-lunch.surge.sh/">
+                    <img src="./images/PeopleArePeople.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                        alt="Alarm Clock">
+                </a>
+                <strong>
+                    <center>People Are People</center>
+                </strong>
+                A match-making app that connects users with like-minded interests. Group project completed by 4 team members- using best practices of GitHub workflow such as branching, handling merge conflicts, pushing, and pulling to effectively communicate between the front/back-end. Created using React, Express, Body-parser, Pg-promise, Nodemon, Morgan, and Flexbox. 
             </div>
 
-            <div class="w3-col m3">
-                <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+            <div class="w3-third m3 project">
+                <a href="http://broad-soap.surge.sh//">
+                    <img src="./images/SteakOut.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                        alt="Alarm Clock">
+                </a>
+                <strong>
+                    <center>Steak Out</center>
+                </strong>
+                Steak App is a steak enthusiast app, where steak lovers can learn more about the different cuts of steak and create/share their own recipes on how to cook their favorite cuts of steak. Created via React, Ruby on Rails, Flexbox, and CSS grid
             </div>
 
-            <div class="w3-col m3">
-                <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
-            </div>
-            <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
         </div>
     </div>
 
